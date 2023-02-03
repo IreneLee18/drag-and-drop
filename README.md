@@ -8,9 +8,9 @@
 ## DataTransfer
 用於保存在拖放操作期間被拖動的資料。
 ### [`dataTransfer.setData()`](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/setData)
-:::info
-**僅傳入字串。**
-:::
+
+> **僅傳入字串。**
+
 #### 語法：
 data 為字串：
 ```jsx=
@@ -25,9 +25,9 @@ const onDragStart = ((e, data) => {
 })
 ```
 ### [`dataTransfer.getData()`](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/getData)
-:::info
-**僅回傳字串。**
-:::
+
+> **僅回傳字串。**
+
 #### 語法：
 data 為字串：
 ```jsx=
@@ -73,5 +73,3 @@ const onDrop = ((e) => {
 > 參考文件：
 > - W3Schools： [HTML Drag and Drop API](https://www.w3schools.com/html/html5_draganddrop.asp)
 > - MDN： [HTML Drag_and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
-> 
-> 範例：[codepen](https://codepen.io/ntjtcxpt-the-animator/full/qByQvbZ)
